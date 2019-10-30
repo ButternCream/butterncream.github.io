@@ -98,8 +98,8 @@
                  </p>
                  <div id="video">
                         <h3>Screenshots</h3>
-                        <image src="images/rl1.png" width="500" height="320"></image>
-                        <image src="images/rl2.jpg" width="600" height="320"></image>
+                        <image id="rl1" src="images/rl1.png" width="500" height="320"></image>
+                        <image id="rl2" src="images/rl2.jpg" width="600" height="320"></image>
                     </div>
                  <a href="https://rocketleaguemods.com/mods/rocket-launcher/"><button class="btn_one">visit project</button></a>
                  <a href="https://github.com/ButternCream/Rocket-Launcher-GUI"><button class="btn_one">code (GUI)</button></a>
@@ -116,7 +116,7 @@
                  </p>
                  <div id="video">
                         <h3>Screenshot</h3>
-                        <image src="images/spotty.png" width="800" height="320"></image>
+                        <image id="spotty_image" src="images/spotty.png" width="800" height="320"></image>
                     </div>
                  <a href="https://github.com/ButternCream/Spotty"><button class="btn_one">visit project</button></a>
                 </div>
@@ -125,15 +125,15 @@
                     <h2>Predator VS Prey Model</h2>
                     <h3>Language(s): Java</h3>
                     <p>
-                        This application was my final project for my Object Oriented Programming class. I used a base "character" class for all the entities on the board. From there I extended into the seperate classes
-                        "Predator" and "Prey" which are represented as red/orange and blue/green respectivley. The project was influence by conways game of life but is substantially different. Prey would reproduce every couple days (cycles)
-                        under the conditions that 1. they had a vacant adjacent sqaure and 2. they were between a certain age range. Similarly predators had a hunger level and when they would become hungry they would eat any prey adjacent to them. In the case of no prey they would
-                        randomly move. Predators would die if they starved and Prey would die after a certain age or get eaten. If any entity lived to a certain age they would become "mutated" and have enchanced charecteristics such as reproducing or hunting more often. You can see a quick example below. The application has some slight lag due to using a 500x500 grid.
-                        The code for this project is not as organized as I would've liked it to be but I really enjoyed how it turned out overall.
+                            This application was my final project for my Object Oriented Programming class. I used a base "character" class for all the entities on the board. From there I extended into the separate classes
+                            "Predator" and "Prey" which are represented as red/orange and blue/green respectively. The project was influence by conways game of life but is substantially different. Prey would reproduce every couple days (cycles)
+                            under the conditions that 1. They had a vacant adjacent square and 2. They were between a certain age range. Similarly predators had a hunger level and when they would become hungry they would eat any prey adjacent to them. In the case of no prey they would
+                            randomly move. Predators would die if they starved and Prey would die after a certain age or get eaten. If any entity lived to a certain age they would become "mutated" and have enhanced characteristics such as reproducing or hunting more often. You can see a quick example below. The application has some slight lag due to using a 500x500 grid.
+                            The code for this project is not as organized as I would've liked it to be but I really enjoyed how it turned out overall.
                     </p>
                     <div id="video">
                         <h3>Example</h3>
-                        <video width="400" height="320" autoplay muted loop>
+                        <video id="predprey" width="400" height="320" autoplay muted loop>
                             <source src="images/predprey.mp4" type="video/mp4">
                                 Error. Cannot play video.
                         </video>
@@ -151,7 +151,7 @@
                         </p>
                         <div id="video">
                             <h3>Example</h3>
-                            <image src="images/rna.png" width="400" height="320"></image>
+                            <image id="rna_image" src="images/rna.png" width="400" height="320"></image>
                         </div>
                         <a href="https://github.com/ButternCream/RNAParser"><button class="btn_one">visit project</button></a>
                     </div>
