@@ -1,3 +1,11 @@
+a{
+    color: #169ff5;
+    transition: 0.5s;
+}
+a:hover{
+    color: #b8f0f5;
+}
+
 body,html {
     padding:0px;
     margin:0px;
@@ -61,7 +69,7 @@ body,html {
 }
 #links a {
     margin:0px 30px;
-    color:inherit;
+    color: inherit;
     text-decoration:none;
     transition:0.4s ease-in-out;
     padding:5px 8px;
@@ -90,6 +98,7 @@ body,html {
 #portfolio {
     width:80%;
     padding:2% 10%;
+    line-height: 1.6;
 }
 #portfolio div h1 {
     font-size:40px;
