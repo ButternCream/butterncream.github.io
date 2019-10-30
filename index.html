@@ -81,44 +81,55 @@
                 </div>
              </div>
          
-             (TODO)
               <div id="work">
-                 <h1>works. </h1>
+                 <h1>projects.</h1>
 
                  <div class="project">
-                 <h2>project title 1</h2>
-                 <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In bibendum tincidunt nulla, id semper mi cursus ac. Fusce turpis urna, condimentum sit amet dolor at, vulputate ultrices massa. Vestibulum non euismod nulla, eu pretium risus. Curabitur porta molestie vulputate.</div>
-                 <button class="btn_one">visit project</button>
+                 <h2>Rocket Launcher</h2>
+                 <h3>Language(s): C# and C++</h3>
+                 <div>
+                    This application was developed over the course of two years alongside two other people. The project started in August of 2016. Being a big gamer, naturally I ended up playing the game Rocket League.
+                    The game was developed by Psyonix, who'm were not in complete agreement with their game being modded. They eventually reached out with a statement saying it was ok as long as we didnt give an
+                    unfair advantage to people. We stuck to following those guidelines. The application had an external interface written in C# and a DLL written in C++ which we would inject into the game. I would say
+                    about 90% of the application was written in the DLL and we simply had the GUI to make things simpler for people. The project involved using the windows32 api and the detours library.
+                    We used an open source unreal engine SDK generator, which would generate an SDK for the game. We included it in our project and created detours to functions we found useful. Doing this 
+                    we could alter the games code in real time. One major aspect that was popular was the ability to create your own dedicated server via port forwarding or through a VPN like hamachi. We alter various 
+                    things in the game to create custom game modes for people to play which could also be hosted on a server to play with friends. My work included creating the GUI, creating custom game modes, setting up
+                    hooks/detours to capture keyboard input and the DX9 DLL in order to draw a custom GUI overlay, and setting up "Dear ImGui" in our project (see above). You can find the project page and both the C# code and a very old version of the DLL below. 
+                    We didn't release the DLL code due to TOS and wanted to keep in good terms with the company. We no longer work on the project due to us being busy with life and we lost passion to keep working on it.
+                </div>
+                 <a href="https://rocketleaguemods.com/mods/rocket-launcher/"><button class="btn_one">visit project</button></a>
+                 <a href="https://github.com/ButternCream/Rocket-Launcher-GUI"><button class="btn_two">code (GUI)</button></a>
+                 <a href="https://github.com/TaylorSasser/RLModding"><button class="btn_one">code (DLL - Archived)</button></a>
                 </div>
 
                 <div class="project">
-                 <h2>project title 2</h2>
-                 <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In bibendum tincidunt nulla, id semper mi cursus ac. Fusce turpis urna, condimentum sit amet dolor at, vulputate ultrices massa. Vestibulum non euismod nulla, eu pretium risus. Curabitur porta molestie vulputate.Lorem ipsum dolor sit amet, consectetur adipiscing elit. In bibendum tincidunt nulla, id semper mi cursus ac. Fusce turpis urna, condimentum sit amet dolor at, vulputate ultrices massa. Vestibulum non euismod nulla, eu pretium risus. Curabitur porta molestie vulputate.
+                 <h2>Spotty (<a href="https://discordapp.com">Discord</a> Bot)</h2>
+                 <h3>Language(s): Python 3</h3>
+                 <div>
+                     This was a simple personal project I wrote for me and my friends for an easy way to share and track music. I have a link to discord above incase you do not know what it is.
+                     The bot will be able to "track" spotify playlists you specify and when it detects a new song is added, it will post it to a specified discord text channel. You can see some screenshots on how its used on the github page.
+                     There is still some things that I could add to this but for what I wanted it worked. I still use it in my personal server (when my raspberry pi is working...) but anyone can technically use it. The project took advantage of the <a href="https://github.com/Rapptz/discord.py">discord.py package</a> which is a python wrapper for the discord api.
                  </div>
-                 <button class="btn_one">visit project</button>
-                 <button class="btn_two">code</button>
+                 <a href="https://github.com/ButternCream/Spotty"><button class="btn_one">visit project</button></a>
                 </div>
 
              </div>
          
+             (TODO: ADD MORE)
+
               <div id="contact">
                  <h1>contact.</h1> 
-                 <form>
+                 <form action="mailto:scottmitchell2014@gmail.com" method="post" enctype=”multipart/form-data”>
                      <input type="text" placeholder="name" required>
                      <input type="email" placeholder="email" required><br>
                      <textarea placeholder="your message" required rows="5"></textarea><br>
-                     <button class="btn_one">send</button>
+                     <button type='submit' class="btn_one">send</button>
                  </form> 
-                 <div id="details">
-                    <a class="btn_social"><i class="fas fa-phone"></i></a>
-                    <a class="btn_social"><i class="fas fa-at"></i></a>
-                    <a class="btn_social"><i class="fab fa-twitter"></i></a>
-                    <a class="btn_social"><i class="fab fa-dribbble"></i></a>
-                 </div>   
              </div>
     </div>
     <div id="footer">
-        made on earth by a human <br><br> <a href="https://imfunniee.github.io">imfunniee</a>
+        Credits for the theme <br><br> <a href="https://imfunniee.github.io">imfunniee</a>
     </div>
 <script src="index.js" type="text/javascript"></script>
 </body>
