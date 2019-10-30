@@ -96,6 +96,11 @@
                         We alter various things in the game to create custom game modes for people to play which could also be hosted on a server to play with friends. My work included creating the GUI, creating custom game modes, setting up hooks/detours to capture keyboard input and the DX9 DLL in order to draw a custom GUI overlay, and setting up "Dear ImGui" in our project (see above). You can find the project page and both the C# code and a very old version of the DLL below. 
                         We didn't release the DLL code due to TOS and wanted to keep in good terms with the company. We no longer work on the project due to us being busy with life and we lost passion to keep working on it.
                  </p>
+                 <div id="video">
+                        <h3>Screenshots</h3>
+                        <image src="images/rl1.png" width="500" height="320"></image>
+                        <image src="images/rl2.jpg" width="600" height="320"></image>
+                    </div>
                  <a href="https://rocketleaguemods.com/mods/rocket-launcher/"><button class="btn_one">visit project</button></a>
                  <a href="https://github.com/ButternCream/Rocket-Launcher-GUI"><button class="btn_one">code (GUI)</button></a>
                  <a href="https://github.com/TaylorSasser/RLModding"><button class="btn_one">code (DLL)</button></a>
@@ -109,12 +114,52 @@
                         The bot will be able to "track" Spotify playlists you specify and when it detects a new song is added, it will post it to a specified discord text channel. You can see some screenshots on how its used on the GitHub page.
                         There is still some things that I could add to this but for what I wanted it worked. I still use it in my personal server (when my raspberry pi is working...) but anyone can technically use it. The project took advantage of the <a href="https://github.com/Rapptz/discord.py">discord.py package</a> which is a python wrapper for the discord API.
                  </p>
+                 <div id="video">
+                        <h3>Screenshot</h3>
+                        <image src="images/spotty.png" width="800" height="320"></image>
+                    </div>
                  <a href="https://github.com/ButternCream/Spotty"><button class="btn_one">visit project</button></a>
                 </div>
 
+                <div class="project">
+                    <h2>Predator VS Prey Model</h2>
+                    <h3>Language(s): Java</h3>
+                    <p>
+                        This application was my final project for my Object Oriented Programming class. I used a base "character" class for all the entities on the board. From there I extended into the seperate classes
+                        "Predator" and "Prey" which are represented as red/orange and blue/green respectivley. The project was influence by conways game of life but is substantially different. Prey would reproduce every couple days (cycles)
+                        under the conditions that 1. they had a vacant adjacent sqaure and 2. they were between a certain age range. Similarly predators had a hunger level and when they would become hungry they would eat any prey adjacent to them. In the case of no prey they would
+                        randomly move. Predators would die if they starved and Prey would die after a certain age or get eaten. If any entity lived to a certain age they would become "mutated" and have enchanced charecteristics such as reproducing or hunting more often. You can see a quick example below. The application has some slight lag due to using a 500x500 grid.
+                        The code for this project is not as organized as I would've liked it to be but I really enjoyed how it turned out overall.
+                    </p>
+                    <div id="video">
+                        <h3>Example</h3>
+                        <video width="400" height="320" autoplay muted loop>
+                            <source src="images/predprey.mp4" type="video/mp4">
+                                Error. Cannot play video.
+                        </video>
+                    </div>
+                    <a href="https://github.com/ButternCream/PredVSPrey-Simulation"><button class="btn_one">visit project</button></a>
+                </div>
+
+                <div class="project">
+                        <h2>RNA Parser</h2>
+                        <h3>Language(s): Python 3</h3>
+                        <p>
+                            This was a very simple application I wrote for my roommate who was a biology major. It would take an RNA sequence such as "UCACUCUCAAAUG..." and parse it for amino acid chains (aka Peptides).
+                            There are various improvements to this application I could have done but it was a quick throw together app that my roommate could use.
+                            I was not a biology major so all the information I got was from my roommate and some googling. You are welcome to view to the code and try it yourself.
+                        </p>
+                        <div id="video">
+                            <h3>Example</h3>
+                            <image src="images/rna.png" width="400" height="320"></image>
+                        </div>
+                        <a href="https://github.com/ButternCream/RNAParser"><button class="btn_one">visit project</button></a>
+                    </div>
+                
              </div>
          
              (TODO: ADD MORE)
+
 
               <div id="contact">
                  <h1>contact.</h1> 

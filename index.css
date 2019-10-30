@@ -15,6 +15,11 @@ body,html {
     background:rgb(0, 0, 0);
     scroll-behavior: smooth;
 }
+
+#video{
+    align-content: left;
+}
+
 #loading {
     width: 100vw;
     height: 100vh;
